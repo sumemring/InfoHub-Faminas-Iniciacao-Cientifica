@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <!-- ====================================================================
        ATENÇÃO ESTUDANTES: 
        Ajuste a tag <title> e a <meta description> para o nome do seu setor.
        Exemplo: "Achados e Perdidos — InfoHub FAMINAS"
        ==================================================================== -->
-  <title>Setor: [Nome do Setor] — InfoHub FAMINAS</title>
+  <title>Iniciação Científica — InfoHub FAMINAS</title>
   <meta name="description"
-    content="Canal de autoatendimento institucional desenvolvido pelos discentes de Análise e Desenvolvimento de Sistemas (ADS) na disciplina de Engenharia de Software da FAMINAS." />
+    content="Guia de autoatendimento do Setor de Iniciação Científica da FAMINAS: atribuições, modalidades de pesquisa, etapas, editais e dúvidas frequentes." />
 
   <link rel="icon" type="image/png" href="./assets/images/logo-faminas.png" />
 
@@ -55,12 +55,8 @@
 
       <div class="header-actions">
         <!-- Botão oficial de retorno ao Hub Principal -->
-        <a 
-          href="https://infohub-faminas.vercel.app" 
-          class="btn btn-primary-highlight btn-portal" 
-          id="link-retornar-hub"
-          aria-label="Retornar à página inicial do InfoHub FAMINAS"
-        >
+        <a href="https://infohub-faminas.vercel.app" class="btn btn-primary-highlight btn-portal" id="link-retornar-hub"
+          aria-label="Retornar à página inicial do InfoHub FAMINAS">
           <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
           <span>Retornar ao InfoHub</span>
         </a>
@@ -84,12 +80,14 @@
 
         <!-- [EDITÁVEL]: Nome do Setor -->
         <h1 id="hero-heading" class="hero-title">
-          Setor: <span>[Nome do Setor Institucional]</span>
+          Setor: <span>Iniciação Científica</span>
         </h1>
 
         <!-- [EDITÁVEL]: Descrição e Propósito do Setor apurados na entrevista -->
         <p class="hero-description">
-          Canal unificado de autoatendimento, mapeamento de processos oficiais, orientações normativas e canais de contato homologados junto à coordenação e gestão setorial da FAMINAS.
+          O Setor de Iniciação Científica promove a formação científica dos estudantes por meio de projetos de pesquisa,
+          incentivando o pensamento crítico, a produção do conhecimento e a inovação. É o principal canal de apoio para
+          quem quer pesquisar, participar de editais e publicar seus resultados.
         </p>
 
         <div class="hero-badges-group" aria-label="Informações do autoatendimento">
@@ -119,139 +117,240 @@
          ==================================================================== -->
     <section id="features" class="sector-content-section" aria-labelledby="sector-content-heading">
       <div class="container">
-        
-        <!-- Cabeçalho da Seção Central -->
+
         <div class="sector-section-header">
           <div class="sector-section-tag">
             <span class="material-symbols-outlined" aria-hidden="true">help_center</span>
             <span>Guia Prático e Procedimentos</span>
           </div>
-          <h2 id="sector-content-heading" class="sector-section-title">
-            Como Podemos Ajudar Você Hoje?
-          </h2>
+          <h2 id="sector-content-heading" class="sector-section-title">Como Participar da Iniciação Científica</h2>
           <p class="sector-section-subtitle">
-            Consulte as principais solicitações, prazos e canais de atendimento direto mapeados pela equipe discente.
+            Entenda o que o setor faz, as modalidades de pesquisa, as etapas do processo e as dúvidas mais comuns de
+            estudantes e professores.
           </p>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 1: Grid de Tópicos / Serviços Frequentes -->
         <div class="sector-grid">
           <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">assignment</span>
+            <div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined">science</span>
             </div>
-            <h3 class="sector-card-title">Orientações e Normas</h3>
-            <p class="sector-card-text">
-              Consulte a regulamentação oficial, formulários obrigatórios e o passo a passo para abertura formal de chamados.
-            </p>
-            <a href="#fluxo" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Ver Passo a Passo
-            </a>
+            <h3 class="sector-card-title">O Que o Setor Faz</h3>
+            <p class="sector-card-text">Gerencia os programas institucionais de pesquisa, divulga editais e acompanha
+              projetos, relatórios e submissões ao CEP.</p>
+            <a href="#atribuicoes" class="btn btn-outline-navy">Ver Atribuições</a>
           </article>
-
           <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">event_available</span>
-            </div>
-            <h3 class="sector-card-title">Prazos e Calendário</h3>
-            <p class="sector-card-text">
-              Fique atento às datas-limite para envio de requerimentos, renovações e homologação de documentos institucionais.
-            </p>
-            <a href="#prazos" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Consultar Datas
-            </a>
+            <div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined">route</span></div>
+            <h3 class="sector-card-title">Como Participar</h3>
+            <p class="sector-card-text">Da escolha do professor orientador à divulgação dos resultados, veja as etapas
+              de um projeto de Iniciação Científica.</p>
+            <a href="#fluxo" class="btn btn-outline-navy">Ver Passo a Passo</a>
           </article>
-
           <article class="sector-card">
-            <div class="sector-card-icon" aria-hidden="true">
-              <span class="material-symbols-outlined">contact_phone</span>
-            </div>
-            <h3 class="sector-card-title">Canais de Atendimento</h3>
-            <p class="sector-card-text">
-              Localização física no campus, horários de funcionamento presencial, telefone, e-mail institucional e WhatsApp oficial.
-            </p>
-            <a href="#contato" class="btn btn-outline-light" style="color: var(--color-primary-navy) !important; border-color: var(--color-border);">
-              Ver Contatos
-            </a>
+            <div class="sector-card-icon" aria-hidden="true"><span
+                class="material-symbols-outlined">event_available</span></div>
+            <h3 class="sector-card-title">Editais, Prazos e Documentos</h3>
+            <p class="sector-card-text">Quem inscreve, onde, quando e com quais documentos. Confira o que já está
+              confirmado e o que está em validação.</p>
+            <a href="#prazos" class="btn btn-outline-navy">Consultar Informações</a>
           </article>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 2: Fluxo Passo a Passo -->
-        <div id="fluxo" style="margin-top: 3rem; background: var(--color-bg-card); padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
-          <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 0.5rem;">
-            Passo a Passo do Processo Setorial
-          </h3>
-          <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
-            Siga as etapas abaixo para protocolar ou resolver sua demanda com rapidez:
-          </p>
+        <div id="atribuicoes" class="sector-block">
+          <h3 class="sector-block-title">Atribuições do Setor</h3>
+          <p class="sector-block-lead">O setor promove a formação científica por meio de projetos de pesquisa e é o
+            principal canal de apoio para quem quer pesquisar, buscar financiamento institucional e publicar seus
+            resultados.</p>
+          <ul class="check-list">
+            <li>Gerenciar os programas institucionais de Iniciação Científica</li>
+            <li>Divulgar editais, chamadas e oportunidades de pesquisa</li>
+            <li>Orientar estudantes e docentes sobre normas e procedimentos de pesquisa</li>
+            <li>Acompanhar a execução dos projetos e seus relatórios</li>
+            <li>Apoiar a submissão ao <abbr title="Comitê de Ética em Pesquisa">CEP</abbr>, quando aplicável</li>
+            <li>Estimular a participação em congressos e eventos, como o <abbr
+                title="Congresso de Pesquisa e Extensão">COPEX</abbr></li>
+            <li>Incentivar a publicação de artigos, resumos e outras produções científicas</li>
+            <li>Integrar ensino, pesquisa e extensão</li>
+            <li>Formar pesquisadores comprometidos com a ética, a inovação e o desenvolvimento científico</li>
+          </ul>
+        </div>
 
-          <ol class="process-steps-list">
+        <div id="modalidades" class="sector-block">
+          <h3 class="sector-block-title">Pesquisa com Bolsa ou Voluntária</h3>
+          <p class="sector-block-lead">O setor coordena as duas modalidades. Em ambas, o estudante trabalha em conjunto
+            com um professor orientador.</p>
+          <div class="sector-grid sector-grid--2">
+            <article class="sector-card">
+              <div class="sector-card-icon" aria-hidden="true"><span class="material-symbols-outlined">payments</span>
+              </div>
+              <h4 class="sector-card-title">Com bolsa (remunerada)</h4>
+              <p class="sector-card-text">Modalidade remunerada, aberta por editais. <span class="status-pill">Valores,
+                  vagas e vigência em validação</span></p>
+            </article>
+            <article class="sector-card">
+              <div class="sector-card-icon" aria-hidden="true"><span
+                  class="material-symbols-outlined">volunteer_activism</span></div>
+              <h4 class="sector-card-title">Voluntária</h4>
+              <p class="sector-card-text">Participação sem bolsa, também coordenada pelo setor. <span
+                  class="status-pill">Critérios e certificação em validação</span></p>
+            </article>
+          </div>
+        </div>
+
+        <div id="fluxo" class="sector-block">
+          <h3 class="sector-block-title">Passo a Passo da Iniciação Científica</h3>
+          <p class="sector-block-lead">Etapas gerais de um projeto. Datas, canais de envio e o momento exato de cada
+            entrega estão em validação com o setor.</p>
+          <ol class="process-steps-list" role="list">
             <li class="process-step-item">
               <span class="step-number">1</span>
-              <div class="step-content">
-                <strong>Reunir a Documentação Necessária</strong>
-                <p>Verifique com antecedência os comprovantes exigidos e tenha em mãos seu número de matrícula institucional.</p>
+              <div class="step-content"><strong>Encontrar um professor orientador</strong>
+                <p>A pesquisa exige trabalho conjunto entre estudante e orientador. Converse com docentes da sua área de
+                  interesse e procure o setor em caso de dúvida.</p>
               </div>
             </li>
             <li class="process-step-item">
               <span class="step-number">2</span>
-              <div class="step-content">
-                <strong>Protocolar o Requerimento</strong>
-                <p>Abra o requerimento pelo portal acadêmico ou compareça presencialmente ao setor nos horários indicados.</p>
+              <div class="step-content"><strong>Elaborar o projeto e o plano de trabalho</strong>
+                <p>Com o orientador, defina o projeto de pesquisa e o plano de trabalho que será executado. Confira no
+                  edital o modelo e os documentos exigidos.</p>
               </div>
             </li>
             <li class="process-step-item">
               <span class="step-number">3</span>
-              <div class="step-content">
-                <strong>Acompanhar o Parecer e Retirada</strong>
-                <p>Acompanhe o status do chamado e receba a confirmação ou retirada do documento protocolado.</p>
+              <div class="step-content"><strong>Inscrever-se no edital vigente</strong>
+                <p>Acompanhe os editais divulgados pelo setor e inscreva-se dentro do prazo. Quem submete a proposta e
+                  por qual canal está em validação.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">4</span>
+              <div class="step-content"><strong>Submeter ao CEP, quando aplicável</strong>
+                <p>Pesquisas que exigem avaliação ética passam pelo Comitê de Ética em Pesquisa, com apoio do setor. O
+                  momento de apresentar o parecer está em validação.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">5</span>
+              <div class="step-content"><strong>Executar e entregar relatórios periódicos</strong>
+                <p>Realize o plano de trabalho e entregue os relatórios periódicos, que o setor acompanha durante toda a
+                  execução.</p>
+              </div>
+            </li>
+            <li class="process-step-item">
+              <span class="step-number">6</span>
+              <div class="step-content"><strong>Divulgar os resultados</strong>
+                <p>Produza resumos ou artigos e apresente em eventos como o COPEX. O setor incentiva a publicação dos
+                  resultados.</p>
               </div>
             </li>
           </ol>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 3: Perguntas Frequentes (FAQ) -->
-        <div style="margin-top: 3rem;">
-          <h3 style="font-size: 1.35rem; color: var(--color-primary-navy); margin-bottom: 1rem;">
-            Dúvidas Frequentes do Setor
-          </h3>
+        <div id="prazos" class="sector-block">
+          <h3 class="sector-block-title">Editais, Prazos e Documentos</h3>
+          <p class="sector-block-lead">Estas informações estão sendo confirmadas com a coordenação do setor e serão
+            publicadas aqui.</p>
+          <dl class="info-list">
+            <div class="info-row">
+              <dt>Quem submete a proposta</dt>
+              <dd>Aluno ou professor orientador <span class="status-pill">Em validação</span></dd>
+            </div>
+            <div class="info-row">
+              <dt>Canal de inscrição</dt>
+              <dd>Link ou endereço oficial de envio <span class="status-pill">Em validação</span></dd>
+            </div>
+            <div class="info-row">
+              <dt>Períodos dos editais</dt>
+              <dd>Meses de abertura das inscrições <span class="status-pill">Em validação</span></dd>
+            </div>
+            <div class="info-row">
+              <dt>Vigência das bolsas</dt>
+              <dd>Duração padrão da bolsa <span class="status-pill">Em validação</span></dd>
+            </div>
+            <div class="info-row">
+              <dt>Documentos exigidos</dt>
+              <dd>Lista e formato dos documentos <span class="status-pill">Em validação</span></dd>
+            </div>
+            <div class="info-row">
+              <dt>Parecer do CEP</dt>
+              <dd>Na inscrição ou após a aprovação <span class="status-pill">Em validação</span></dd>
+            </div>
+          </dl>
+          <p class="sector-note"><strong>Importante:</strong> o edital vigente e as normativas oficiais da FAMINAS
+            prevalecem sobre este resumo. Confirme as regras no edital antes de se inscrever.</p>
+        </div>
+
+        <div id="faq" class="sector-block">
+          <h3 class="sector-block-title">Dúvidas Frequentes do Setor</h3>
+          <p class="sector-block-lead">As perguntas mais comuns de estudantes e professores sobre a Iniciação
+            Científica.</p>
           <div class="faq-accordion">
             <details class="faq-item">
-              <summary class="faq-summary">
-                <span>Qual é o prazo médio de resposta para solicitações deste setor?</span>
-                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
-              </summary>
-              <div class="faq-content">
-                O prazo de análise institucional varia entre 2 a 5 dias úteis, dependendo da complexidade do requerimento e do calendário acadêmico vigente.
-              </div>
+              <summary class="faq-summary"><span>Como participo dos programas de Iniciação Científica?</span><span
+                  class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">Os programas são gerenciados pelo setor, que divulga os editais e as
+                oportunidades. O estudante atua com um professor orientador, a partir de um projeto com plano de
+                trabalho. O canal e os prazos de inscrição estão em validação.</div>
             </details>
             <details class="faq-item">
-              <summary class="faq-summary">
-                <span>O atendimento presencial exige agendamento prévio?</span>
-                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              <summary class="faq-summary"><span>Quem pode se candidatar a uma vaga de pesquisador ou
+                  bolsista?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
               </summary>
-              <div class="faq-content">
-                Para a maioria dos serviços o atendimento é por ordem de chegada na recepção do setor. Em períodos de pico de matrícula ou eventos especiais, recomenda-se verificar aviso oficial.
-              </div>
+              <div class="faq-content">Estudantes e professores que desejam desenvolver pesquisa buscam o setor. Os
+                critérios de elegibilidade estão em validação; consulte sempre o edital vigente.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Qual a diferença entre pesquisa com bolsa e voluntária?</span><span
+                  class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">A pesquisa com bolsa é remunerada e a voluntária não. O setor coordena as duas
+                modalidades. Valores, vagas e vigência estão em validação.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Como encontro um professor orientador?</span><span
+                  class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">Converse com docentes da área em que deseja pesquisar. O setor é o principal
+                canal de apoio para estudantes e professores que querem desenvolver projetos; procure-o se tiver
+                dúvidas.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Quais documentos preciso para submeter um projeto?</span><span
+                  class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">A lista de documentos e o formato exigido estão em validação com o setor.
+                Consulte o edital vigente antes de montar a inscrição.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Meu projeto precisa passar pelo Comitê de Ética (CEP)?</span><span
+                  class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">O setor apoia a submissão ao CEP quando aplicável, ou seja, em pesquisas que
+                exigem avaliação ética. O momento de apresentar o parecer está em validação.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Como registro e acompanho meu projeto? Há regras para relatórios e
+                  artigos?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span></summary>
+              <div class="faq-content">O setor acompanha a execução dos projetos e seus relatórios, que são periódicos.
+                Ele também orienta sobre as normas para resumos, artigos científicos e relatórios finais.</div>
+            </details>
+            <details class="faq-item">
+              <summary class="faq-summary"><span>Posso apresentar e publicar os resultados da minha
+                  pesquisa?</span><span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+              </summary>
+              <div class="faq-content">Sim. O setor estimula a participação em congressos e seminários, como o COPEX, e
+                incentiva a publicação de artigos e resumos. Os critérios de certificação e aproveitamento das
+                atividades estão em validação.</div>
             </details>
           </div>
         </div>
 
-        <!-- EXEMPLO DE BLOCO 4: Banner de Contato Oficial -->
         <div id="contato" class="contact-banner">
           <div class="contact-banner-meta">
-            <h3>Precisa de Atendimento com a Equipe do Setor?</h3>
-            <p>Atendimento presencial no campus FAMINAS • Segunda a Sexta: 08h às 21h</p>
+            <h3>Precisa Falar com o Setor de Iniciação Científica?</h3>
           </div>
           <div class="contact-banner-actions">
-            <a href="mailto:atendimento@faminas.edu.br" class="btn btn-outline-light">
-              <span class="material-symbols-outlined" aria-hidden="true">mail</span>
-              <span>Enviar E-mail</span>
-            </a>
-            <a href="tel:+553237297000" class="btn btn-primary-highlight">
-              <span class="material-symbols-outlined" aria-hidden="true">call</span>
-              <span>Ligar para o Setor</span>
-            </a>
+            <a href="mailto:pesquisa.mre@faminas.edu.br" class="btn btn-outline-light"><span
+                class="material-symbols-outlined" aria-hidden="true">mail</span><span>Enviar E-mail</span></a>
+            <a href="tel:+55 (32) 3729-7519" class="btn btn-primary-highlight"><span class="material-symbols-outlined"
+                aria-hidden="true">call</span><span>Ligar para o Setor</span></a>
           </div>
         </div>
 
@@ -275,14 +374,9 @@
         </p>
 
         <div class="footer-course-highlight">
-          <a 
-            href="https://www.unifaminas.edu.br/cursos/analise-e-desenvolvimento-de-sistemas" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            class="footer-course-card"
-            id="link-curso-ads"
-            aria-label="Conheça o curso de Análise e Desenvolvimento de Sistemas na UNIFAMINAS em nova janela"
-          >
+          <a href="https://www.unifaminas.edu.br/cursos/analise-e-desenvolvimento-de-sistemas" target="_blank"
+            rel="noopener noreferrer" class="footer-course-card" id="link-curso-ads"
+            aria-label="Conheça o curso de Análise e Desenvolvimento de Sistemas na UNIFAMINAS em nova janela">
             <div class="footer-course-icon" aria-hidden="true">
               <span class="material-symbols-outlined">school</span>
             </div>
